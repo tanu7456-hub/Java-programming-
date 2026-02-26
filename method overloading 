@@ -1,0 +1,28 @@
+class Student {
+
+    // Method 1: address with student details
+    void address(String name, int rollNo, String insId) {
+        System.out.println("Student Details:");
+        System.out.println("Name: " + name);
+        System.out.println("Roll No: " + rollNo);
+        System.out.println("Institute ID: " + insId);
+    }
+
+    // Method 2: address with college details
+    void address(String collegeName, String hostelName, int pinCode) {
+        System.out.println("\nCollege Details:");
+        System.out.println("College Name: " + collegeName);
+        System.out.println("Hostel Name: " + hostelName);
+        System.out.println("Pin Code: " + pinCode);
+    }
+}
+
+public class college{
+    public static void main(String[] args) {
+
+      Student obj = new Student();
+    //	add obj1 = new add();
+		obj.address("Tanu", 01,"25");
+		obj.address("GBPIET GHURDAURI PAURI","VISHWESHWARTA HOSTEL", 246194);
+    }
+}
