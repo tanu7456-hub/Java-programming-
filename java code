@@ -1,0 +1,36 @@
+class add {
+	public short a(short a) {
+		System.out.println("short = " + a);
+		return a;
+	}
+	public int a(int a) {
+		System.out.println("int = " + a);
+		return a;
+	}
+	public char a(char a) {
+		System.out.println("char = " + a);
+		return a;
+	}
+	public double a(double a) {
+		System.out.println("double = " + a);
+		return a;
+	}
+	public String a(String a) {
+		System.out.println("string = " + a);
+		return a;
+	}
+
+}
+public class abc {
+	public static void main(String[] args) {
+
+		int a = 5;
+		add obj = new add();
+    	add obj1 = new add();
+		obj.a('H');
+		obj.a(5);
+		obj.a("tanu");
+	
+
+	}
+}
